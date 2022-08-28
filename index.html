@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Furkan Evin CV</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no user-scalable=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+  </head>
+
+  <body class="bg-opacity-25 bg-dark bg-gradient">
+    <div class="exportContainer">
+      <div class="d-flex mb-0 gap-2">  <i class="bi bi-info-square text-warning"></i>    <p class="fs-6 mb-0" id="info">CV is under construct, its not the final form :)</p>
+      </div>
+      <div class="d-flex gap-4">
+      <buton class="btn btn-danger w-75" id="exportBtn">Export to PDF</buton>
+      <!-- DROPDOWN -->
+      <select class="form-select w-50" aria-label="Default select example" id="language">
+        <option value="english" selected>English</option>
+        <option value="turkish">Turkish</option>
+        <option value="3" disabled>Deustch-Not Av</option>
+      </select>
+      <!-- DROPDOWN END -->
+    </div>
+    </div>
+    <div class="mainContainer" id="CV">
+      <div class="header">
+        <div class="profileImgContainer">
+          <img src="pp.webp" class="rounded-circle" alt="" />
+        </div>
+        <div class="profileInfoContainer">
+          <h1>Furkan Evin</h1>
+          <h4>Frontend Developer</h4>
+          <p id="personalDesc">
+            Hello! I am Furkan  -- dolor sit amet consectetur adipisicing elit. Quas est
+            aspernatur magni voluptates nisi in sint totam. Incidunt eveniet
+            officia nisi repellat voluptate provident asperiores fugiat ad,
+            consequuntur vero!
+          </p>
+        </div>
+      </div>
+      <div class="content row">
+        <!-- Left Side -->
+        <div class="col-4 p-0">
+          <!-- Contact -->
+          <div class="contact">
+            <!-- Contact Item -->
+            <div class="mt-4">
+              <div>
+                <i id="mail" class="bi bi-envelope-fill text-danger"></i>
+              </div>
+              <div class="">
+                <a
+                  class="text-decoration-none text-dark"
+                  href="mailto:furkanevin00@gmail.com"
+                  >furkanevin00@gmail.com</a
+                >
+              </div>
+              <hr class="mt-1" style="width: 74%" />
+            </div>
+            <!-- Contact Item -->
+            <div class="mt-2">
+              <div><i id="phone" class="bi bi-phone-fill"></i></div>
+              <div>
+                <a
+                  class="text-decoration-none text-dark"
+                  href="tel:+905446904048"
+                  >+905446904048</a
+                >
+              </div>
+              <hr class="mt-1" style="width: 48%" />
+            </div>
+
+            <!-- Contact Item -->
+            <div class="mt-2">
+              <div><i id="github" class="bi bi-github text-black"></i></div>
+              <div>
+                <a
+                  target="_blank"
+                  class="text-decoration-none text-dark"
+                  href="https://github.com/furkanevin"
+                  >github.com/furkanevin</a
+                >
+              </div>
+              <hr class="mt-1" style="width: 65%" />
+            </div>
+
+            <!-- Contact Item -->
+            <div class="mt-2">
+              <div>
+                <i id="linkedin" class="bi bi-linkedin text-primary"></i>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  class="text-decoration-none text-dark"
+                  href="https://www.linkedin.com/in/furkan-evin/"
+                  >linkedin.com/in/furkan-evin</a
+                >
+              </div>
+              <hr class="mt-1" style="width: 78%" />
+            </div>
+
+            <!-- Contact Item -->
+            <div class="mt-2">
+              <div><i class="bi bi-bandaid-fill"></i></div>
+              <div>
+                <a
+                  target="_blank"
+                  class="text-decoration-none text-dark"
+                  href="https://www.linkedin.com/in/furkan-evin/"
+                  >will be added</a
+                >
+              </div>
+              <hr class="mt-1" style="width: 40%" />
+            </div>
+
+            <!-- Contact Item -->
+            <div class="mt-1">
+              <div><i class="bi bi-geo-alt-fill text-success"></i></div>
+              <div>Turkey / İzmir</div>
+            </div>
+          </div>
+          <!-- Skills -->
+          <div class="skills">
+            <h4 class="px-1 mt-0 fs-4" id="skills">SKILLS</h4>
+            <hr class="mt-0 wide" />
+            <span class="badge bg-secondary even-larger-badge">Redux</span>
+            <span class="badge bg-secondary even-larger-badge">React</span>
+            <span class="badge bg-secondary even-larger-badge">Java</span>
+            <span class="badge bg-secondary even-larger-badge">HTML</span>
+            <span class="badge bg-secondary even-larger-badge">CSS</span>
+            <span class="badge bg-secondary even-larger-badge"
+              >UnrealEngine</span
+            >
+            <span class="badge bg-secondary even-larger-badge">GIT</span>
+            <span class="badge bg-secondary even-larger-badge">Node.js</span>
+            <span class="badge bg-secondary even-larger-badge">Unity</span>
+          </div>
+          <!-- Languages -->
+          <div class="languages">
+            <h4 class="px-1 fs-" id="languages">LANGUAGES</h4>
+            <hr class="mt-0 wide" />
+            <h5 id="lang-1">English</h5>
+            <p class="" id="en">Full Professional Profficiency</p>
+            <h5 id="lang-2">Turkish</h5>
+            <p class="" id="tr">Native or Bilingual Profficiency</p>
+          </div>
+        </div>
+
+        <!-- Right Side -->
+        <div class="col-8 p-0 right-side mt-4">
+          <!-- EDUCATION -->
+          <div class="eduContainer ">
+            <h3 id="edu">EDUCATION</h3>
+            <hr class="wide m-0" />
+            <div class="eduBox">
+              <h5 class="mx-2" id="edu-1">Under Construct :)</h5>
+              <p class="m-0 mx-2" id="edu-2">Software Engineering</p>
+              <p class="m-0 mx-2 text-black-50">2022</p>
+              <p class="m-0 mx-2 text-black-50">description...</p>
+            </div>
+          </div>
+
+          <!-- EXPERIENCE -->
+          <div class="expContainer ">
+            <h3 id="exp">EXPERIENCES</h3>
+            <hr class="wide m-0"/>
+            <div class="eduBox">
+              <h5 class="mx-2" id="exp-1" >Something</h5>
+              <p class="m-0 mx-2" id="exp-2" >React Developer</p>
+              <p class="m-0 mx-2 text-black-50" id="date-1">October 2022-</p>
+              <ul >
+                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus, voluptatibus!</li>
+                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+              </ul>
+            </div>
+            <div class="eduBox">
+              <h5 class="mx-2" id="exp-3">Another One</h5>
+              <p class="m-0 mx-2" id="exp-4">Game Developer</p>
+              <p class="m-0 mx-2 text-black-50" id="date-2">October 1999-2018</p>
+              <ul >
+                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus, voluptatibus!</li>
+                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="projectsContainer">
+              <h3 id="projects">PROJECTS</h3>
+              <hr class="wide m-0" />
+              <div class="eduBox">
+                <h5 class="mx-2" id="project-1">Something Incredible</h5>
+                <p class="m-0 mx-2" id="project-2">How Long it took me to do this?</p>
+                <p class="m-0 mx-2 text-black-50" id="project-3"> 
+                  Pros of project</p>
+                <ul>
+                  <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus, voluptatibus!</li>
+                  <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+                </ul>
+              </div>
+          </div>
+          </div>
+
+          <!-- PROJECTS -->
+        </div>
+      </div>
+    </div>
+        <!-- SCRİPT    -->
+    <script src="main.js"></script>
+  </body>
+</html>

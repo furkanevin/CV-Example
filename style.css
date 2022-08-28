@@ -1,0 +1,104 @@
+.mainContainer{
+    background-color: white;
+    width: 794px;
+
+    min-height: 500px;
+    max-height: 1123px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.32);
+    padding: 7px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.header{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    margin-top: 20px;
+}
+.content{
+    width: 100%;
+    height: 1100px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.profileImgContainer{
+width: 150px;
+height: 150px;
+}
+.profileImgContainer img{
+    width: 100%;
+}
+.profileInfoContainer{
+height: 100%;
+flex: 1;
+padding: 0px 20px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.side{
+    border: 1px solid;
+}
+.contact{
+    width: 100%;
+    height: 43%;
+}
+
+.skills{
+    width: 100%;
+    height: 24%;
+}
+.languages{
+    width: 100%;
+    height: 25%;
+
+}
+.wide{
+    height: 3px;
+    background-color: rgba(135, 134, 134, 0.787);
+    opacity: 1;
+    width: 60%;
+}
+.badge.even-larger-badge {
+    font-size: 1em;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+/* Right Side */
+
+.right-side{
+    width: 100%;
+    height: 100%;}
+.eduContainer{
+    width: 100%;
+    height: 18%;
+}
+.eduBox{
+ border-left:5px solid blue;
+ margin-top: 20px;
+}
+.expContainer{
+    width: 100%;
+    height: 44%;
+    margin-top: 20px;
+}
+.projectsContainer{
+    width:100%;
+    height: 35%;
+    margin-top: 10px;
+}
+
+/* EXPORT */
+.exportContainer{
+    margin: auto;
+    margin-top: 30px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
