@@ -67,8 +67,13 @@ justify-content: space-between;
     margin-bottom: 10px;
     margin-right: 10px;
     margin-left: 10px;
+    background-color: rgb(113, 113, 113);
+    transition: 0.2s all;
   }
-
+  .badge.even-larger-badge:hover {
+    transition: all 0.2s linear;
+    background-color: rgb(71, 74, 74);
+  }
 /* Right Side */
 
 .right-side{
